@@ -1,1 +1,5 @@
 # QuantifyExtragalacticContamination
+
+This GitHub respository contains the code relevant to quanitify of extragalactic contamination in PySM dust intensity maps. PySM3 is the most recent version of Python Sky Model, which is code designed to create a realistic model of the Milky Way Galaxy. Between the original versions of the dust models and the latest versions, actions have been taken to filter out "contaminating" emissions in the models. In this context, the term contamination refers to light that originates from outside our galaxy. A good comparison would be if you wanted to model your living room as a stand-alone environment; you would want to include the light that comes from your desk lamp, but you would want to filter out light from the porch lamp that makes its way through the open window. 
+
+The Jupyter Notebooks in this respository provide code that will use an external reference set of known galaxies and compare the level of extragalactic contamination in dust intensity maps produced by different dust models. The over-arching goal is to evaluate how effectively the new dust models filter out extragalactic emission signals. 
